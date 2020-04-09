@@ -1,0 +1,23 @@
+name: covid
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas
+  - fbprophet
+  - jupyter
+  - jupyterlab
+  - requests
+  - pyarrow
+  - plotly
+  - seaborn
+  - pip
+  - nb_anacondacloud
+  - geopandas
+  - descartes
+  - contextily
+  - folium
+  - pip:
+    - streamlit
+
